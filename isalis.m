@@ -332,7 +332,7 @@ static void usage(void) {
 	fprintf(stderr,"\n");
 	fprintf(stderr,"  isalis [- -huncVdrvb]\n");
 	fprintf(stderr,"  isalis [ --help,--usage,--normal,--copyright\n");
-	fprintf(stderr,"-          --version,--delimiter,--report,--verbose,--broken ]\n");
+	fprintf(stderr,"           --version,--delimiter,--report,--verbose,--broken ]\n");
 	fprintf(stderr,"\n");
 	fprintf(stderr,"Examples\n");
 	fprintf(stderr,"--------\n");
