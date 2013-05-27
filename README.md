@@ -19,6 +19,7 @@ Options
   All output options are mutually exclusive, the last one takes effect.
 
   isalis [- -huncVdrvb]
+
   isalis [ --help,--usage,--normal,--copyright
 -          --version,--delimiter,--report,--verbose,--broken ]
 
