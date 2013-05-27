@@ -347,8 +347,8 @@ static void usage(void) {
 	fprintf(stderr,"  of the filename.\n");
 	fprintf(stderr,"\n");
 	fprintf(stderr,"  cat flist | isalis  -v\n");
-	fprintf(stderr,"  Mirrors the original listings but adds a column with any aliases, or prints\n");
-	fprintf(stderr,"  BROKEN in the same column.\n");
+	fprintf(stderr,"  Prints all inspected filenames, those that are aliases gets their path\n");
+	fprintf(stderr,"  or BROKEN displayed in  column to the right.\n");
 	fprintf(stderr,"\n");
 	fprintf(stderr,"  isalis --broken f1 f2 f3 f4 ...\n");
 	fprintf(stderr,"  prints all broken aliases found in the files given on the command line.\n");
@@ -363,7 +363,7 @@ static void usage(void) {
 	fprintf(stderr,"                  This is the  same as giving no option.\n");
 	fprintf(stderr,"  -d,--delimiter: Sets the delimiter, for separating path and alias.\n");
 	fprintf(stderr,"  -c,--copyright: Prints out a copyright notice.\n");
-	fprintf(stderr,"  -v,--version:   Prints out the version of isalis.\n");
+	fprintf(stderr,"  -V,--version:   Prints out the version of isalis.\n");
 	fprintf(stderr,"\n");
 	fprintf(stderr,"  -r,--report:    Prints a report containing every alias found in the file\n");
 	fprintf(stderr,"                  arguments, and if they are bad.  Broken aliases are\n");

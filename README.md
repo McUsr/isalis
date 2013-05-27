@@ -55,7 +55,7 @@ Explanation of the options
 
   -c,--copyright: Prints out a copyright notice.
 
-  -v,--version:   Prints out the version of isalis.
+  -V,--version:   Prints out the version of isalis.
 
   -r,--report:    Prints a report containing every alias found in the file
                   arguments, and if they are bad.  Broken aliases are
