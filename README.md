@@ -21,7 +21,7 @@ Options
   isalis [- -huncVdrvb]
 
   isalis [ --help,--usage,--normal,--copyright
--          --version,--delimiter,--report,--verbose,--broken ]
+           --version,--delimiter,--report,--verbose,--broken ]
 
 Examples
 --------
