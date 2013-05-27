@@ -40,6 +40,7 @@ Examples
 
 Explanation of the options
 --------------------------
+
   -h,--help:      Shows this help and quits.
 
   -u,--usage:     Shows this help and quits.
@@ -53,23 +54,30 @@ Explanation of the options
   -r,--report:    Prints a report containing every alias found in the file
                   arguments, and if they are bad.  Broken aliases are
 				  printed onto stderr.
+
                   ----------------------------------------------------------------
+
                   [original filename][ tab (\t)][ the alias  (or   BROKEN ALIAS)] 
 
   -v,--verbose:   Normal files found  are added on separate lines crohnologically
                   with the output from --report.
+
                   ---------------------------------------------------------------
+
                   [original filename][ tab (\t)][ the alias  (or   BROKEN ALIAS)] 
                   [regular filename ]
                   [...]
 
   -b,--broken:    Shows original filenames of all broken aliases to stdout.
                   And nothing more.
+
                   ---------------------------------------------------------------
+
                   [original filename]
 
 Error codes
 -----------
+
 Single file mode
 
     0: An alias that was correct was found.
@@ -79,6 +87,7 @@ Single file mode
     4: Internal program error.
 
 Multi file mode (Batch).
+
     0: At least one alias file was found and none with a broken alias was found.
     1: Not a single alias file was found.
     3: At least one alias that was broke were found.
