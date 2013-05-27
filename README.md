@@ -35,8 +35,8 @@ Examples
   of the filename.
 
   cat flist | isalis  -v
-  Mirrors the original listings but adds a column with any aliases, or prints
-  BROKEN in the same column.
+  Gives you a list of which files inspected, with aliases or BROKEN
+  printed to the right of the inspected filename.
 
   isalis --broken f1 f2 f3 f4 ...
   prints all broken aliases found in the files given on the command line.
@@ -96,5 +96,5 @@ Multi file mode (Batch).
 
     0: At least one alias file was found and none with a broken alias was found.
     1: Not a single alias file was found.
-    3: At least one alias that was broke were found.
+    3: At least one alias that was broken were found.
     4: Internal program error.
