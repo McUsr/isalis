@@ -47,8 +47,11 @@ Explanation of the options
 
   -n,--normal:    Shows the alias if found in file-argument given.
                   This is the  same as giving no option.
+
   -d,--delimiter: Sets the delimiter, for separating path and alias.
+
   -c,--copyright: Prints out a copyright notice.
+
   -v,--version:   Prints out the version of isalis.
 
   -r,--report:    Prints a report containing every alias found in the file
