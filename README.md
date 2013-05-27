@@ -7,6 +7,9 @@ The main objective is to provide the functionality below. The objective for shar
 is to provide an easy acces point for people who want to make and share shell-tools that plays
 well with alias files on OS X.
 
+ Command line to compile:
+  gcc -Os -I/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Headers/ -o isalis isalis.m -lobjc  -framework CoreFoundation -framework Cocoa
+
 Enjoy.
 
 Usage: isalis [options] [1..n file arguments or from stdin; one file  on each line.]
